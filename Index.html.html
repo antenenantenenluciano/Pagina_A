@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Innovación y Tendencias Educativas</title>
+
+<style>
+
+:root{
+--rojo1:#7f0000;
+--rojo2:#b71c1c;
+--rojo3:#d32f2f;
+--rojo4:#ef5350;
+--rojo5:#ffebee;
+--blanco:#ffffff;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:var(--rojo5);
+color:#333;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:var(--rojo1);
+z-index:1000;
+box-shadow:0 2px 10px rgba(0,0,0,.3);
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 8%;
+}
+
+.logo{
+color:white;
+font-size:1.5rem;
+font-weight:bold;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(135deg,var(--rojo1),var(--rojo3));
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero-content{
+animation:entrada 1.5s ease;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.3rem;
+max-width:900px;
+margin:auto;
+}
+
+.boton{
+display:inline-block;
+margin-top:30px;
+padding:15px 30px;
+background:white;
+color:var(--rojo2);
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+padding:100px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+font-size:2.4rem;
+color:var(--rojo1);
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+color:var(--rojo2);
+margin-bottom:10px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+background:white;
+}
+
+th{
+background:var(--rojo2);
+color:white;
+padding:15px;
+}
+
+td{
+padding:15px;
+border:1px solid #ddd;
+}
+
+.infografia{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+.bloque{
+background:linear-gradient(135deg,var(--rojo2),var(--rojo4));
+color:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+font-weight:bold;
+}
+
+.multimedia{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.multimedia article{
+background:white;
+padding:20px;
+border-radius:15px;
+}
+
+.escape{
+background:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+}
+
+.escape button{
+padding:12px 20px;
+margin:10px;
+border:none;
+border-radius:10px;
+background:var(--rojo2);
+color:white;
+cursor:pointer;
+}
+
+footer{
+background:var(--rojo1);
+color:white;
+text-align:center;
+padding:30px;
+}
+
+@keyframes entrada{
+from{
+opacity:0;
+transform:translateY(50px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+}
+
+nav ul{
+justify-content:center;
+}
+
+.hero h1{
+font-size:2.5rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">Innovación Educativa</div>
+
+<ul>
+<li><a href="#inicio">Inicio</a></li>
+<li><a href="#introduccion">Introducción</a></li>
+<li><a href="#ia">IA</a></li>
+<li><a href="#ra">RA</a></li>
+<li><a href="#rv">RV</a></li>
+<li><a href="#gamificacion">Gamificación</a></li>
+<li><a href="#tendencias">Tendencias</a></li>
+<li><a href="#multimedia">Multimedia</a></li>
+<li><a href="#escape">Escape Room</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero" id="inicio">
+<div class="hero-content">
+
+<h1>Innovación y Tendencias Educativas</h1>
+
+<p>
+Las tecnologías emergentes están transformando la enseñanza y el aprendizaje mediante experiencias más dinámicas, inclusivas y significativas.
+</p>
+
+<a href="#introduccion" class="boton">Comenzar</a>
+
+</div>
+</section>
+
+<section id="introduccion">
+
+<h2>Introducción</h2>
+
+<p style="text-align:center;font-size:1.1rem;">
+La innovación educativa busca mejorar los procesos de enseñanza y aprendizaje mediante el uso de metodologías activas y herramientas tecnológicas.
+</p>
+
+</section>
+
+<section id="ia">
+
+<h2>Inteligencia Artificial</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>¿Qué es?</h3>
+<p>La IA permite que las máquinas realicen tareas que requieren inteligencia humana.</p>
+</div>
+
+<div class="card">
+<h3>Aplicaciones</h3>
+<p>Tutores virtuales, asistentes educativos y sistemas adaptativos.</p>
+</div>
+
+<div class="card">
+<h3>Beneficios</h3>
+<p>Personalización del aprendizaje y análisis de datos.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="ra">
+
+<h2>Realidad Aumentada</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Interactividad</h3>
+<p>Combina elementos reales y virtuales.</p>
+</div>
+
+<div class="card">
+<h3>Visualización</h3>
+<p>Permite observar modelos tridimensionales.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="rv">
+
+<h2>Realidad Virtual</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Inmersión</h3>
+<p>Genera entornos simulados para aprender experimentando.</p>
+</div>
+
+<div class="card">
+<h3>Simulaciones</h3>
+<p>Favorece prácticas seguras y significativas.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gamificacion">
+
+<h2>Gamificación</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Motivación</h3>
+<p>Incrementa la participación.</p>
+</div>
+
+<div class="card">
+<h3>Desafíos</h3>
+<p>Promueve la resolución de problemas.</p>
+</div>
+
+<div class="card">
+<h3>Recompensas</h3>
+<p>Estimula la continuidad del aprendizaje.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Cuadro Comparativo</h2>
+
+<table>
+
+<tr>
+<th>Tecnología</th>
+<th>Ventaja</th>
+<th>Uso Educativo</th>
+</tr>
+
+<tr>
+<td>IA</td>
+<td>Personalización</td>
+<td>Tutores Inteligentes</td>
+</tr>
+
+<tr>
+<td>RA</td>
+<td>Interactividad</td>
+<td>Modelos 3D</td>
+</tr>
+
+<tr>
+<td>RV</td>
+<td>Inmersión</td>
+<td>Simulaciones</td>
+</tr>
+
+<tr>
+<td>Gamificación</td>
+<td>Motivación</td>
+<td>Retos Educativos</td>
+</tr>
+
+</table>
+
+</section>
+
+<section id="tendencias">
+
+<h2>Tendencias Emergentes</h2>
+
+<div class="infografia">
+
+<div class="bloque">Microlearning</div>
+<div class="bloque">Learning Analytics</div>
+<div class="bloque">Metaverso Educativo</div>
+<div class="bloque">Blockchain Educativo</div>
+<div class="bloque">Aprendizaje Adaptativo</div>
+<div class="bloque">Educación Híbrida</div>
+
+</div>
+
+</section>
+
+<section id="multimedia">
+
+<h2>Recursos Multimedia</h2>
+
+<div class="multimedia">
+
+<article>
+<h3>Podcast</h3>
+<audio controls style="width:100%;">
+<source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3">
+</audio>
+</article>
+
+<article>
+<h3>Video</h3>
+<iframe width="100%" height="250" src="https://www.youtube.com/embed/Tn6-PIqc4UM" allowfullscreen></iframe>
+</article>
+
+<article>
+<h3>Presentación</h3>
+<p>Insertar enlace de Google Slides o Canva.</p>
+</article>
+
+</div>
+
+</section>
+
+<section id="escape">
+
+<h2>Escape Room Educativo</h2>
+
+<div class="escape">
+
+<p><strong>Pregunta:</strong> ¿Qué tecnología combina elementos reales y virtuales?</p>
+
+<br>
+
+<button onclick="verificar('IA')">IA</button>
+<button onclick="verificar('RA')">RA</button>
+<button onclick="verificar('RV')">RV</button>
+
+<h3 id="resultado"></h3>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Conclusiones</h2>
+
+<p style="text-align:center;font-size:1.1rem;">
+La innovación educativa permite desarrollar experiencias de aprendizaje más dinámicas, inclusivas y significativas para estudiantes y docentes.
+</p>
+
+</section>
+
+<footer>
+<p>Proyecto Educativo - Innovación y Tendencias © 2026</p>
+</footer>
+
+<script>
+
+function verificar(respuesta){
+
+let resultado=document.getElementById("resultado");
+
+if(respuesta==="RA"){
+resultado.innerHTML="🎉 ¡Correcto! Has desbloqueado el código: INNOVAR";
+resultado.style.color="green";
+}else{
+resultado.innerHTML="❌ Respuesta incorrecta. Intenta nuevamente.";
+resultado.style.color="red";
+}
+
+}
+
+</script>
+
+</body>
+</html>
